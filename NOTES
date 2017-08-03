@@ -1,0 +1,20 @@
+TODO(kernel):
+1. Where is my IVT?
+2. Where is my heap?
+3. Make stack per-cpu
+
+TODO(build_system):
+1. Add target 'install' (not sure, separate folder for a single file?)
+2. Investigate the correct way of providing support of out-of-tree build
+3. Fix issue related to nested makefiles
+4. Fix dependencies in Makefiles - second make in a row shouldn't build
+   everything again
+5. Think about acceptable way of arch and toolchain configuration
+6. Make make (what?) quiet
+
+TODO(education):
+1. Linker scripts (take a look in systems book)
+2. GAS syntax
+
+TODO(all):
+1. Resolve TODO-s in sources
